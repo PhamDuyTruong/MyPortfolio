@@ -1,6 +1,5 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://sv-dev.netlify.app/" target="_blank">Sv.dev</a>
 </h2>
 
 <div align="center">
@@ -17,14 +16,13 @@
 
 ## Built With
 
-My personal portfolio <a href="https://sv-dev.netlify.app/" target="_blank">sv-dev.netlify.app</a> <br/>
+My personal portfolio 
 
 This project built using these technologies:
 - React.js
 - SASS
 - Cloudinary
 - Workbox
-- Netlify
 - WebStorm
 
 ## Getting Started
