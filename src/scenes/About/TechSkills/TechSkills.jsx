@@ -11,7 +11,7 @@ import {
   SiTypescript,
   SiRedux,
   SiSocketDotIo,
-  SiAmazonaws,
+  SiJava,
 } from 'react-icons/si';
 
 const TechSkills = () => {
@@ -36,7 +36,7 @@ const TechSkills = () => {
         <DiSass />
       </li>
       <li className={s.techIcon}>
-        <SiAmazonaws />
+        <SiJava />
       </li>
       <li className={s.techIcon}>
         <SiRedux />

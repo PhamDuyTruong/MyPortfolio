@@ -1,124 +1,86 @@
 export const PROJECTS = [
   {
     id: '1',
-    title: 'Apiko Marketplace',
+    title: 'Booking Movie',
     description:
-      'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
+      'A Booking Movie made with React. The project was developed on 8th July in 2021.',
     image: {
       src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apiko-marketplace-app-snaichuk.herokuapp.com/',
-      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
+      site: 'https://movies-phamduytruong.vercel.app/',
+      repo: 'https://github.com/PhamDuyTruong/Booking-Movie-review.git',
     },
     technologies: [
       '#react',
       '#redux',
-      '#socket.io',
       '#scss',
-      '#formik',
-      '#react-window',
+      '#react-thunk',
+      '#react-hook',
       '#restapi',
     ],
   },
   {
     id: '2',
-    title: 'Places App',
+    title: 'Ford Landing Page',
     description:
-      'A MERN app to let users share their experience of places along with Details. It is user friendly and can be useful to many others.',
+      'A Ford landing Page make with HTML5, CSS3, Boostrap 4.6 and some interesting Libraries',
     image: {
       src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348070/portfolio/projects/mern-places/mern-places-lg_xf6zom.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://yourplaces-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/MERN-places',
+      site: 'https://vercel.com/phamduytruong/fordtemplate',
+      repo: 'https://github.com/PhamDuyTruong/Ford.git',
     },
     technologies: [
-      '#react',
-      '#nodejs',
-      '#express',
-      '#mongodb',
-      '#react-query',
-      '#react-transition-group',
-      '#mongoose',
-      '#jwt',
-      '#aws',
+      '#HTML5',
+      '#CSS3',
+      '#Boostrap 4.6',
     ],
   },
   {
     id: '3',
-    title: 'eCommerce Mobile App',
+    title: 'Grab App',
     description:
-      'A Mobile eCommerce application built with React Native that includes cart functionality, push notifications, user authentication and user orders',
+      'A Grab app make with Javascript to review knowledges and to improve myself',
     image: {
       src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-shop/rn-shop-lg_fofglf.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/online-shop-app',
-      repo: 'https://github.com/vsnaichuk/RN-shop',
+      site: 'https://grab-gamma.vercel.app/',
+      repo: 'https://github.com/PhamDuyTruong/Grab.git',
     },
     technologies: [
-      '#react-native',
-      'expo',
-      '#redux',
-      '#redux-toolkit',
-      '#react-navigation',
-      '#nodejs',
-      '#express',
-      '#mongodb',
+      '#Javascript',
+      '#SCSS',
+      '#HTML5',
+      '#Less'
     ],
   },
   {
     id: '4',
-    title: 'Places Mobile App',
+    title: 'Clinical App',
     description:
-      'A Mobile application for sharing places that people visit from all over the world. Uses React Native, TypeScript, MobX and Native Device Features',
+      'A Clinical application for doctors to analyst patients and in the process of completing',
     image: {
       src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-places/rn-places-lg_ljyikm.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-places',
-      repo: 'https://github.com/vsnaichuk/RN-places',
+      site: '#',
+      repo: '#',
     },
     technologies: [
-      '#react-native',
-      '#typescript',
-      '#expo',
-      '#mobx',
-      '#sqlite',
-      '#react-native-maps',
-      '#expo-location',
-    ],
-  },
-  {
-    id: '5',
-    title: 'Shopping Cart',
-    description:
-      'Simple eCommerce cart application built with React and TypeScript. Uses SWR hook to fetch the data from the API and Styled Components',
-    image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: 'https://shopping-cart-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/React-ShoppingCart',
-    },
-    technologies: [
-      '#react',
-      '#typescript',
-      '#material-ui',
-      '#styled-components',
-      '#swr',
-      '#fakestoreapi',
+     '#React',
+     '#Java',
+     '#Mysql'
     ],
   },
 ];
