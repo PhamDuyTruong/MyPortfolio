@@ -33,7 +33,7 @@ export const PROJECTS = [
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://vercel.com/phamduytruong/fordtemplate',
+      site: 'https://fordtemplate.vercel.app/',
       repo: 'https://github.com/PhamDuyTruong/Ford.git',
     },
     technologies: [
@@ -65,22 +65,22 @@ export const PROJECTS = [
   },
   {
     id: '4',
-    title: 'Clinical App',
+    title: 'Udemy Template',
     description:
-      'A Clinical application for doctors to analyst patients and in the process of completing',
+      'A Udemy Template is created with HTML5, SASS, Boostrap 4.6, and is cloned by website Udemy',
     image: {
       src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-places/rn-places-lg_ljyikm.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: '#',
-      repo: '#',
+      site: 'https://udemy-template-six.vercel.app/',
+      repo: 'https://github.com/PhamDuyTruong/UdemyTemplate.git',
     },
     technologies: [
-     '#React',
-     '#Java',
-     '#Mysql'
+     '#HTML5',
+     '#SASS',
+     '#Boostrap 4.6'
     ],
   },
 ];
